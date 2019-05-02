@@ -5,6 +5,7 @@
     <content url="file://$MODULE_DIR$/../../../../Taxi Park/Task">
       <excludeFolder url="file://$MODULE_DIR$/../../../../Taxi Park/Task/.gradle" />
       <excludeFolder url="file://$MODULE_DIR$/../../../../Taxi Park/Task/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../../Taxi Park/Task/out" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

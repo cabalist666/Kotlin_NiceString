@@ -5,6 +5,7 @@
     <content url="file://$MODULE_DIR$/../../../../Nice String/Task">
       <excludeFolder url="file://$MODULE_DIR$/../../../../Nice String/Task/.gradle" />
       <excludeFolder url="file://$MODULE_DIR$/../../../../Nice String/Task/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../../Nice String/Task/out" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
