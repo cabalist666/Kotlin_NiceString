@@ -4,7 +4,8 @@ package taxipark
  * Task #1. Find all the drivers who performed no trips.
  */
 fun TaxiPark.findFakeDrivers(): Set<Driver> =
-        TODO()
+         if(this.trips.isNullOrEmpty() == true)
+//return{ this.trips.isNullOrEmpty() == true  }
 // val ListFakeDrivers = {this.contains(arrayOf(TaxiPark))}
 /*
  * Task #2. Find all the clients who completed at least the given number of trips.
