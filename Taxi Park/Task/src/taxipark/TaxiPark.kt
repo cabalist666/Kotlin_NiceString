@@ -10,7 +10,7 @@ data class Passenger(val name: String)
 
 data class Trip(
         val driver: Driver,
-        val passengers: Set<Passenger>,
+        var passengers: Set<Passenger>,
         // the trip duration in minutes
         val duration: Int,
         // the trip distance in km
