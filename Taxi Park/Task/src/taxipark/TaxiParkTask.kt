@@ -18,8 +18,8 @@ fun TaxiPark.findFakeDrivers(): Set<Driver> =
  */
 fun TaxiPark.findFaithfulPassengers(minTrips: Int): Set<Passenger> =
         this.allPassengers
-                .filter{it -> this.trips
-                        .filter { trip:Trip -> it in trip.passengers}
+                .filter{passenger -> this.trips
+                        .filter { trip:Trip -> passenger in trip.passengers}
                         .count() >= minTrips
                 }
                 .toSet()
@@ -51,7 +51,7 @@ fun TaxiPark.findSmartPassengers(): Set<Passenger> =
  * Return any period if many are the most frequent, return `null` if there're no trips.
  */
 fun TaxiPark.findTheMostFrequentTripDurationPeriod(): IntRange? {
-
+// use groupBy is much easier
     var findmaxduration = this.trips.maxBy(Trip::duration)?.duration
     //val maxDuration:Int = trips.map{ it.duration }.max() ?: 0
       var range2:IntRange? = 0..9
